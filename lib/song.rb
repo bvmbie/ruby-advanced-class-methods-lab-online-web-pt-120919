@@ -30,7 +30,10 @@ class Song
   end
   
   def self.find_by_name (title)
-      
+      @@
   end
+  
+  def self.find_by_name(name)
+    @@people.find{|person| person.name == name}
 
 end
