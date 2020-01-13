@@ -68,5 +68,9 @@ class Song
     filename
     @@all << filename
   end
+  
+  def self.destroy_all
+    @@all.clear
+  end
 
 end
